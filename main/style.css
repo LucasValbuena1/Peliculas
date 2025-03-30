@@ -1,45 +1,46 @@
-/* Estilos globales */
 body {
-    background-color: #3dabe2;
-  }
-  
-  /* Tamaño del logo principal */
-  .logo-principal {
+    background-color: #84aae2;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+.logo-principal {
     max-width: 300px;
-  }
-  
-  /* Tamaño máximo de las imágenes de las tarjetas */
-  .card-img-custom {
+}
+
+
+.card-img-custom {
     max-width: 200px;
-  }
-  
-  /* Colores de fondo para cada tarjeta de película */
-  .card-movie-1 {
-    background-color: #20ffff;
-  }
-  
-  .card-movie-2 {
-    background-color: #20ffff;
-  }
-  
-  .card-movie-3 {
-    background-color: #20ffff;
-  }
-
-  .card-encabezado {
-    background-color: #20ffff; 
-  }
-
-  .ranking {
-    background-color: #20ffff;
-
-  }
-
-  .formulario-suscripcion{
-    background-color: #20ffff;
-  }
-  
+}
 
 
-  
-  
+.card-movie-1 {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.card-movie-2 {
+    background-color: #004080;
+    color: #ffffff;
+}
+
+.card-movie-3 {
+    background-color: #0059b3;
+    color: #ffffff;
+}
+
+
+.card-encabezado {
+    background-color: #002244;
+    color: #ffffff;
+}
+
+.ranking {
+    background-color: #002244;
+    color: #ffffff;
+}
+
+.formulario-suscripcion {
+    background-color: #e6e6e6;
+    color: #333333;
+}

@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cinemania</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  
+
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+  <!-- Encabezado -->
   <div class="container mt-4">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-12">
         <div class="card p-3 text-center card-encabezado">
           <h1>Cinemania</h1>
           <img src="imgs/logo.png" class="img-fluid logo-principal d-block mx-auto" alt="Logo de Cinemania">
@@ -24,48 +28,39 @@
   <!-- Sección de Películas -->
   <div class="seccion-peliculas container my-4">
     <div class="row justify-content-center">
-
-      <!-- TARJETA PELÍCULA 1 -->
-      <div class="col-md-3 text-center mb-4">
+      <!-- Película 1 -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4">
         <div class="card p-3 card-movie-1">
           <h3>Amores Perros</h3>
           <img src="imgs/amores_perros.jpg" class="img-fluid d-block mx-auto my-2 card-img-custom" alt="Amores Perros">
-          <p>Un accidente automovilístico fatal en la Ciudad de México desencadena una serie de acontecimientos en la
-            vida de tres personas: una supermodelo, un joven que quiere fugarse con su cuñada y un hombre sin hogar. Sus
-            vidas se ven catapultadas a situaciones imprevistas, provocadas por el destino aparentemente intrascendente
-            de un perro.</p>
+          <p>Un accidente automovilístico fatal en la Ciudad de México desencadena una serie de acontecimientos en la vida de tres personas...</p>
           <a href="https://letterboxd.com/film/amores-perros/">Enlace a la Película 1</a>
         </div>
       </div>
-
-      <!-- TARJETA PELÍCULA 2 -->
-      <div class="col-md-3 text-center mb-4">
+      
+      <!-- Película 2 -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4">
         <div class="card p-3 card-movie-2">
           <h3>Trap</h3>
           <img src="imgs/trap.jpg" class="img-fluid d-block mx-auto my-2 card-img-custom" alt="Trampa">
-          <p>Un padre y una hija adolescente asisten a un concierto pop, donde se dan cuenta de que están en el centro
-            de un evento oscuro y siniestro.</p>
+          <p>Un padre y una hija adolescente asisten a un concierto pop, donde se dan cuenta de que están en el centro de un evento oscuro...</p>
           <a href="https://letterboxd.com/film/trap-2024/">Enlace a la Película 2</a>
         </div>
       </div>
-
-      <!-- TARJETA PELÍCULA 3 -->
-      <div class="col-md-3 text-center mb-4">
+      
+      <!-- Película 3 -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4">
         <div class="card p-3 card-movie-3">
           <h3>Se7en</h3>
           <img src="imgs/seven.jpg" class="img-fluid d-block mx-auto my-2 card-img-custom" alt="Se7en">
-          <p>Dos detectives de homicidios emprenden una búsqueda desesperada de un asesino en serie cuyos crímenes se
-            basan en los "siete pecados capitales" en esta oscura e inquietante película que lleva a los espectadores de
-            los restos torturados de una víctima a otra. El experimentado detective Somerset investiga cada pecado para
-            intentar penetrar en la mente del asesino, mientras su novato compañero, Mills, se burla de sus esfuerzos
-            por desentrañar el caso.</p>
+          <p>Dos detectives de homicidios emprenden una búsqueda desesperada de un asesino en serie cuyos crímenes se basan en los "siete pecados capitales"...</p>
           <a href="https://letterboxd.com/film/se7en/">Enlace a la Película 3</a>
         </div>
       </div>
-
     </div>
   </div>
 
+  <!-- Ranking de Películas -->
   <div class="ranking container my-4">
     <div class="row">
       <div class="col-12 p-3">
@@ -75,13 +70,10 @@
           <li>Un completo desconocido</li>
           <li>La sustancia</li>
           <li>Emilia Perez</li>
-
         </ol>
       </div>
     </div>
   </div>
-
-
 
   <!-- Formulario de Suscripción -->
   <div class="formulario-suscripcion container my-4">
@@ -98,6 +90,6 @@
       <button type="submit" class="btn btn-primary">Suscribirme</button>
     </form>
   </div>
-</body>
 
+</body>
 </html>
