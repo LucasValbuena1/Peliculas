@@ -1,0 +1,45 @@
+/* Estilos globales */
+body {
+    background-color: #3dabe2;
+  }
+  
+  /* Tamaño del logo principal */
+  .logo-principal {
+    max-width: 300px;
+  }
+  
+  /* Tamaño máximo de las imágenes de las tarjetas */
+  .card-img-custom {
+    max-width: 200px;
+  }
+  
+  /* Colores de fondo para cada tarjeta de película */
+  .card-movie-1 {
+    background-color: #20ffff;
+  }
+  
+  .card-movie-2 {
+    background-color: #20ffff;
+  }
+  
+  .card-movie-3 {
+    background-color: #20ffff;
+  }
+
+  .card-encabezado {
+    background-color: #20ffff; 
+  }
+
+  .ranking {
+    background-color: #20ffff;
+
+  }
+
+  .formulario-suscripcion{
+    background-color: #20ffff;
+  }
+  
+
+
+  
+  
